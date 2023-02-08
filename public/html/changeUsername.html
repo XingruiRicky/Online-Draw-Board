@@ -1,0 +1,61 @@
+<!-- https://www.geeksforgeeks.org/how-to-reset-change-password-in-node-js-with-passport-js/ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="..\css\parry.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="cardStyle">
+            <span class="custom-letters">
+                <div>
+                    <span class="color_red">D</span>
+                    <span class="color_orange">r</span>
+                    <span class="color_yellow">a</span>
+                    <span class="color_green">w</span>
+                </div>
+                <div><span class="color_cyan">&nbsp;</span>
+                    <span class="color_cyan">C</span>
+                    <span class="color_blue">o</span>
+                    <span class="color_purple">l</span>
+                    <span class="color_pink">a</span>
+                    <span class="color_red">b</span>
+                </div>
+            </span>
+            <h2 class="formTitle">
+                Change your UserName
+            </h2>
+            <div class="usernameDiv">
+                <p id="username"> Current Username: </p>
+            </div>
+            <div class="inputDiv">
+                <input type="password" placeholder="Current Password" name="oldpassword" class="inputLabel"
+                    id="password">
+            </div>
+            <div class="inputDiv">
+                <input type="text" placeholder="New Username" name="newpassword" class="inputLabel" id="newUsername">
+            </div>
+            <div class="buttonWrapper" class="inputDiv">
+                <button type="submit" id="submitButton" class="submitButton pure-button pure-button-primary"
+                    onclick="sendRequest()">
+                    Change Username
+                </button>
+            </div>
+            <div class="buttonWrapper" class="inputDiv">
+                <button type="submit" id="go_back" class="submitButton pure-button pure-button-primary">
+                    Go Back
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/changeUsername.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+body {
+    margin: 0;  
+	background-color:#f8f3e9;
+    /* padding: 20px; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.custom-letters{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    align-self: stretch;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.color_red{
+    color: red;
+    font-size: 5rem;
+    
+}
+.color_orange{
+    color: rgb(255,122,0);
+    font-size: 5rem;
+}
+.color_yellow{
+    color: rgb(250,255,0);
+    font-size: 5rem;
+}
+.color_green{
+    color: rgb(66,255,0);
+    font-size: 5rem;
+}
+.color_cyan{
+    color: rgb(0, 240, 255);
+    font-size: 5rem;
+}
+.color_blue{
+    color: rgb(0, 71, 255);
+    font-size: 5rem;
+}
+.color_purple{
+    color: rgb(112, 0, 255);
+    font-size: 5rem;
+}
+.color_pink{
+    color: rgb(255, 0, 153);
+    font-size: 5rem;
+}
+.header {
+    padding: 80px;
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.butt {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2rem;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.butt:hover{
+    color: white;
+    background-color: antiquewhite;
+}
+
+.butt2 {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2rem;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.butt2:hover{
+    color: white;
+    background-color: antiquewhite;
+}
+
+.inputbox {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 50%;
+    justify-content: center;
+    height: 60%;
+    align-items: center;
+    vertical-align:middle;
+    border-radius: 10%;
+
+}
+
+#p {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_tolast {
+    display: flex;
+    float: left;
+    text-align: right;
+}
+
+.box2{
+    font-size: 30px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    vertical-align:middle;
+    border-radius: 10%;
+}
+
+#user {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#user_name {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(187, 135, 68);
+}
+
+#user_but {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#room {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+#rooms {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 150px;
+}
+
+#rooms ul {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#rooms li:hover {
+    color: rgb(72, 43, 4);
+    cursor: pointer;
+}
+
+#visibility {
+    font-size: 30px;
+}
+
+#visibility button {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#visibility button:active {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#status button {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#status button:active {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.butt2{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.custom-letters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    align-self: stretch;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .color_red{
+    color: red;
+    font-size: 5rem;
+    
+  }
+  .color_orange{
+    color: rgb(255,122,0);
+    font-size: 5rem;
+  }
+  .color_yellow{
+    color: rgb(250,255,0);
+    font-size: 5rem;
+  }
+  .color_green{
+    color: rgb(66,255,0);
+    font-size: 5rem;
+  }
+  .color_cyan{
+    color: rgb(0, 240, 255);
+    font-size: 5rem;
+  }
+  .color_blue{
+    color: rgb(0, 71, 255);
+    font-size: 5rem;
+  }
+  .color_purple{
+    color: rgb(112, 0, 255);
+    font-size: 5rem;
+  }
+  .color_pink{
+    color: rgb(255, 0, 153);
+    font-size: 5rem;
+  }
+  @media all and (max-width: 400px) {
+    .box-su{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .color_red{
+        color: red;
+        font-size: 3rem !important;
+    }
+    .color_orange{
+        color: rgb(255,122,0);
+        font-size: 3rem !important;
+    }
+    .color_yellow{
+        color: rgb(250,255,0);
+        font-size: 3rem !important;
+    }
+    .color_green{
+        color: rgb(66,255,0);
+        font-size: 3rem !important;
+    }
+    .color_cyan{
+        color: rgb(0, 240, 255);
+        font-size: 3rem !important;
+    }
+    .color_blue{
+        color: rgb(0, 71, 255);
+        font-size: 3rem !important;
+    }
+    .color_purple{
+        color: rgb(112, 0, 255);
+        font-size: 3rem !important;
+    }
+    .color_pink{
+        color: rgb(255, 0, 153);
+        font-size: 3rem !important;
+    }
+  }

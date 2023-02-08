@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Draw Colab - Canvas</title>
+    <link rel="stylesheet" href="../css/clientCanvas.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div id="tool_bar">
+        <div id="home_buttons">
+            <i class="fa fa-home btn-home" id="back_home" style="font-size:1rem;"></i>
+            <span id="room_ID"></span>
+            <i class="fa fa-star room-star" id="subscribe_star" style="font-size:1rem;"></i>
+            <button id ='save'> Save Canvas</button>
+        </div>
+        <div id="tools">
+            <div id="size_picker">
+                <label for="stroke_size">Stroke Size</label>
+                <select id="stroke_size">
+                    <option value="1">1 px</option>
+                    <option value="2">2 px</option>
+                    <option value="3">3 px</option>
+                    <option value="4" selected>4 px</option>
+                    <option value="5">5 px</option>
+                    <option value="6">6 px</option>
+                    <option value="7">7 px</option>
+                    <option value="8">8 px</option>
+                    <option value="9">9 px</option>
+                    <option value="10">10 px</option>
+                    <option value="11">11 px</option>
+                    <option value="12">12 px</option>
+                    <option value="13">13 px</option>
+                    <option value="14">14 px</option>
+                    <option value="15">15 px</option>
+                    <option value="16">16 px</option>
+                    <option value="17">17 px</option>
+                    <option value="18">18 px</option>
+                    <option value="19">19 px</option>
+                    <option value="20">20 px</option>
+                    <option value="21">21 px</option>
+                    <option value="22">22 px</option>
+                    <option value="23">23 px</option>
+                    <option value="24">24 px</option>
+                </select>
+            </div>
+            <div id="eraser_container">
+                <button class="eraser"><span>Eraser</span></button>
+            </div>
+            <div id="color_buttons">
+                <button class="color_button" id="color_button_1"></button>
+                <button class="color_button" id="color_button_2"></button>
+                <button class="color_button" id="color_button_3"></button>
+                <button class="color_button" id="color_button_4"></button>
+                <button class="color_button" id="color_button_5"></button>
+                <button class="color_button" id="color_button_6"></button>
+                <button class="color_button" id="color_button_7"></button>
+                <button class="color_button" id="color_button_8"></button>
+                <button class="color_button" id="color_button_9"></button>
+                <button class="color_button" id="color_button_10"></button>
+                <button class="color_button" id="color_button_11"></button>
+                <button class="color_button" id="color_button_12"></button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="canvas_container">
+        <canvas width="1000" height="1000"></canvas>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.0/socket.io.js"></script>
+    <script src="../js/clientCanvas.js"></script>
+</body>
+
+</html>

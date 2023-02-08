@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;  
+	background-color:#f8f3e9;
+    text-align: center;
+}
+
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 60%;
+    justify-content: center;
+    height: 45%;
+    align-items: center;
+    vertical-align:middle;
+    border-radius: 2rem;
+}
+
+.header {
+    padding: 5rem;
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+}
+
+.sign-up-header{
+    color: crimson;
+    font-size: 3rem;
+    
+}
+
+.butt {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2rem;
+    color: black;
+    padding: 0.9rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 0.3rem 0.13rem;
+    cursor: pointer;
+}
+
+.butt:hover{
+    color: white;
+    background-color: crimson;
+}
+
+.inputbox{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+
+.custom-letters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    align-self: stretch;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .color_red{
+    color: red;
+    font-size: 5rem;
+    
+  }
+  .color_orange{
+    color: rgb(255,122,0);
+    font-size: 5rem;
+  }
+  .color_yellow{
+    color: rgb(250,255,0);
+    font-size: 5rem;
+  }
+  .color_green{
+    color: rgb(66,255,0);
+    font-size: 5rem;
+  }
+  .color_cyan{
+    color: rgb(0, 240, 255);
+    font-size: 5rem;
+  }
+  .color_blue{
+    color: rgb(0, 71, 255);
+    font-size: 5rem;
+  }
+  .color_purple{
+    color: rgb(112, 0, 255);
+    font-size: 5rem;
+  }
+  .color_pink{
+    color: rgb(255, 0, 153);
+    font-size: 5rem;
+  }
+  @media all and (max-width: 400px) {
+    .box-su{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .color_red{
+        color: red;
+        font-size: 3rem !important;
+    }
+    .color_orange{
+        color: rgb(255,122,0);
+        font-size: 3rem !important;
+    }
+    .color_yellow{
+        color: rgb(250,255,0);
+        font-size: 3rem !important;
+    }
+    .color_green{
+        color: rgb(66,255,0);
+        font-size: 3rem !important;
+    }
+    .color_cyan{
+        color: rgb(0, 240, 255);
+        font-size: 3rem !important;
+    }
+    .color_blue{
+        color: rgb(0, 71, 255);
+        font-size: 3rem !important;
+    }
+    .color_purple{
+        color: rgb(112, 0, 255);
+        font-size: 3rem !important;
+    }
+    .color_pink{
+        color: rgb(255, 0, 153);
+        font-size: 3rem !important;
+    }
+  }
+
+/* login and sign up */
+
+.box-su{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 100%;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+    vertical-align:middle;
+    border-radius: 2rem;
+
+}
+
+/* MainPage CSS */
+
+.mainPageBox{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+    width: 70%;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+    vertical-align:middle;
+    border-radius: 5%;
+
+}
+
+#createRoom{
+    display: flex;
+}
+
+#joinRoom{
+    display: flex;
+}
+
+#createPublicRoomButton{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+
+#createPrivateRoomButton{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#logo{
+    height: 50px;
+}
+
+#insideMainBox{
+    display: flex;
+}
+
+#joinRoomInput{
+    width: 100px;
+}
+
+#joinRoomButton{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+
